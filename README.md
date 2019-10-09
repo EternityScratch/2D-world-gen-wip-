@@ -3,4 +3,4 @@ not much yet but i'm workin' on it
 
 
 Update -
-- 0.1 basic realse done
+- 0.1 basic realese done
