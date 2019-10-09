@@ -1,0 +1,74 @@
+let x = 0
+let y = 300;
+let I = 1;
+
+function setup() {
+  createCanvas(400, 400);
+}
+ 
+function draw() {
+  background(220);
+  grass();
+}
+
+function grass() {
+  noStroke(0);
+  fill(50, 222 ,50)
+  //Sep
+  rect(x, y, 5, 5);
+  rect(x+5, y, 5, 5);
+  rect(x+10, y, 5, 5);
+  rect(x+15, y, 5, 5);
+  rect(x+20, y, 5, 5);
+  rect(x+25, y, 5, 5);
+  //Sep
+  fill(45, 210, 78);
+  rect(x, y+5, 5, 5);
+  fill(45, 250, 40);
+  rect(x+5, y+5, 5, 5);
+  rect(x+10, y+5, 5, 5);
+  fill(76, 200, 30);
+  rect(x+15, y+5, 5, 5);
+  rect(x+20, y+5, 5, 5);
+  fill(45, 250, 40);
+  rect(x+25, y+5, 5, 5);
+  //sep
+  fill(100, 50, 78);
+  rect(x, y+10, 5, 5);
+  fill(45, 250, 40);
+  rect(x+5, y+10, 5, 5);
+  rect(x+10, y+10, 5, 5);
+  fill(100, 70, 78);
+  rect(x+15, y+10, 5, 5);
+  rect(x+20, y+10, 5, 5);
+  fill(45, 250, 40);
+  rect(x+25, y+10, 5, 5);
+  fill(80, 50, 78);
+  //sep
+  fill(100, 70, 78);
+  rect(x, y+15, 5, 5);
+  rect(x+5, y+15, 5, 5);
+  rect(x+10, y+15, 5, 5);
+  rect(x+15, y+15, 5, 5);
+  rect(x+20, y+15, 5, 5);
+  fill(100, 80, 78);
+  rect(x+25, y+15, 5, 5);
+  //sep
+  fill(100, 70, 78);
+  rect(x, y+20, 5, 5);
+  rect(x+5, y+20, 5, 5);
+  rect(x+10, y+20, 5, 5);
+  rect(x+15, y+20, 5, 5);
+  rect(x+20, y+20, 5, 5);
+  fill(100, 80, 78);
+  rect(x+25, y+20, 5, 5);
+  //sep
+  fill(100, 70, 78);
+  rect(x, y+25, 5, 5);
+  rect(x+5, y+25, 5, 5);
+  rect(x+10, y+25, 5, 5);
+  rect(x+15, y+25, 5, 5);
+  rect(x+20, y+25, 5, 5);
+  fill(100, 80, 78);
+  rect(x+25, y+25, 5, 5);
+}
